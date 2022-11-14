@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="NetworkService.Views.NetworkDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetworkService.Views"
+             xmlns:vml="clr-namespace:NetworkService.VML"
+             vml:ViewModelLocator.AutoHookedUpViewModel="True"
+             xmlns:data="clr-namespace:NetworkService.Model"
+             mc:Ignorable="d" 
+             d:DesignHeight="520" d:DesignWidth="750">
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type data:Parking}">
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid Background="Gray" Height="520" VerticalAlignment="Top">
+        <Grid  Background="Gray"  Margin="10,5,10,10">
+            <RadioButton  IsChecked="{Binding ValueName, UpdateSourceTrigger=PropertyChanged}" Content="Ime" Command="{Binding NameSearchCommand}"  HorizontalAlignment="Left" Margin="23,28,0,0" Height="20" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" Width="87" Foreground="White" RenderTransformOrigin="1.735,1.105"/>
+            <RadioButton IsChecked="{Binding ValueId, UpdateSourceTrigger=PropertyChanged}" Content="Tip" Command="{Binding TypeSearchCommand}" HorizontalAlignment="Left" Margin="23,55,0,0" Height="20" VerticalAlignment="Top" FontSize="12" FontWeight="Bold" Width="87" Foreground="White"/>
+            <TextBox HorizontalAlignment="Left" Height="30" Margin="133,36,0,0" TextWrapping="Wrap" Text="{Binding SearchValueText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="228" FontSize="12" TextAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button VerticalAlignment="Top" Foreground="White" Content="{Binding NameButtonSearch, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="385,35,0,0" Width="160" Height="30" Command="{Binding SearchCommand}"/>
+
+            <Button Foreground="White" Content="Dodaj" Height="30"   Command="{Binding AddCommandBtn}" HorizontalAlignment="Left" Width="235" Margin="354,440,0,35"/>
+            <Button Foreground="White" Background="Red" Content="Obrisi" HorizontalAlignment="Left" Height="30" Width="160" HorizontalContentAlignment="Center"  Command="{Binding DeleteCommandBtn}" Margin="560,36,0,439"/>
+
+            <Label Content="Id:" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="12" Foreground="White" Height="40" Width="75" FontWeight="Bold" Margin="23,392,0,0" />
+            <Label Content="Ime:" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="12" Foreground="White" Height="40" Width="75" FontWeight="Bold" Margin="23,438,0,0" />
+            <Label Content="Tip:" HorizontalAlignment="Left" VerticalAlignment="Top"  FontSize="12" Foreground="White" Height="40" Width="75" FontWeight="Bold" Margin="354,394,0,0" />
+            <Image  Source="{Binding Path}" HorizontalAlignment="Right" Width="81"  Margin="0,394,10,37"/>
+
+            <ComboBox HorizontalAlignment="Left" Background="Gray" SelectedValue="{Binding TypeText}" ItemsSource="{Binding ComboBoxDataParking}" Height="30"  Margin="443,392,0,83" Width="146" />
+            <TextBox HorizontalAlignment="Left" Text="{Binding Id, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="12" Height="30"  TextWrapping="Wrap" Margin="65,396,0,79" Width="264"/>
+            <TextBox HorizontalAlignment="Left" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Height="30" FontSize="12" TextWrapping="WrapWithOverflow" Margin="65,438,0,37" Width="264"/>
+
+
+
+        </Grid>
+        <DataGrid SelectedIndex="{Binding Index}" CanUserAddRows="False" ItemsSource="{Binding Parking3, Mode=TwoWay}" SelectionMode="Single" Height="273" Margin="0,97,0,0" VerticalAlignment="Top" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="id" Binding="{Binding Id}" Width="60" />
+                <DataGridTextColumn Header="Ime" Binding="{Binding Name}" Width="100" />
+                <DataGridTextColumn Header="Tip" Binding="{Binding Type.Name}" Width="120" />
+                <DataGridTextColumn Header="Vrednost" Binding="{Binding Value, UpdateSourceTrigger=PropertyChanged}" Width="80" />
+                <DataGridTemplateColumn Header="Slika" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Type.Slika}"  Height="40"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="NetworkService.Views.DataChartView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                xmlns:local="clr-namespace:NetworkService.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             
+     xmlns:viewModel="clr-namespace:NetworkService.ViewModel"
+      xmlns:vml="clr-namespace:NetworkService.VML"
+      vml:ViewModelLocator.AutoHookedUpViewModel="True"
+      xmlns:data="clr-namespace:NetworkService.Model"
+             
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="750">
+
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type data:Parking}">
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid Background="Gray" Height="520" VerticalAlignment="Top">
+        <Label Content="Izaberi entitet:" HorizontalAlignment="Left" HorizontalContentAlignment="Center" FontSize="18" Foreground="Black" FontWeight="Bold" VerticalAlignment="Center" Margin="221,17,0,469" Width="222" />
+
+        <ComboBox HorizontalAlignment="Left" SelectedValuePath="Key" DisplayMemberPath="Value.Name"  Background="Gray" SelectedValue="{Binding ParkingChoice}" ItemsSource="{Binding ComboBoxDataParking}" Margin="254,56,0,426" Width="160" />
+
+        <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="122,124,0,120">
+            <TextBlock Text="100%" Margin="0 50 0 0" FontWeight="Bold" Foreground="Black" />
+            <TextBlock Text="80%" Margin="0 25 0 0" FontWeight="Bold" Foreground="Black"/>
+            <TextBlock Text="60%" Margin="0 25 0 0" FontWeight="Bold" Foreground="Black"/>
+            <TextBlock Text="40%" Margin="0 25 0 0" FontWeight="Bold" Foreground="Black"/>
+            <TextBlock Text="20%" Margin="0 30 0 0" FontWeight="Bold" Foreground="Black"/>
+            <TextBlock Text="0%"   Margin="0 25 0 0" FontWeight="Bold" Foreground="Black"/>
+        </StackPanel>
+
+        <StackPanel Margin="202,0,0,64" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <TextBlock HorizontalAlignment="Left" Text="  1" Foreground="Black"/>
+            <TextBlock Text="  2" Margin="50 0 0 0" Foreground="Black" />
+            <TextBlock Text="  3" Margin="50 0 0 0" Foreground="Black"/>
+            <TextBlock Text="  4" Margin="50 0 0 0" Foreground="Black"/>
+            <TextBlock Text="  5" Margin="50 0 0 0" Foreground="Black"/>
+        </StackPanel>
+
+        <Canvas Width="350" Height="270" Background="Transparent" HorizontalAlignment="Left" Margin="186,127,0,123">
+
+
+            <Line X1="10" Y1="272" X2="340" Y2="272" Stroke="Black" StrokeThickness="3" Height="273"/>
+
+
+
+            <Rectangle  Canvas.Left="19" Width ="25" Height="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Visina1}" Fill="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Boja1}" Canvas.Bottom="0"/>
+
+            <Rectangle  Canvas.Left="81" Width ="25" Height="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Visina2}" Fill="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Boja2}" Canvas.Bottom="0"/>
+
+            <Rectangle  Canvas.Left="132" Width ="25" Height="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Visina3}" Fill="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Boja3}" Canvas.Bottom="0" />
+
+            <Rectangle  Canvas.Left="199" Width ="25" Height="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Visina4}" Fill="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Boja4}" Canvas.Bottom="0" />
+
+            <Rectangle  Canvas.Left="262" Width ="25" Height="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Visina5}" Fill="{Binding Source={x:Static viewModel:DataChartViewModel.ElementHeights}, Path=Boja5}" Canvas.Bottom="0" />
+
+
+
+
+        </Canvas>
+
+    </Grid>
+</UserControl>

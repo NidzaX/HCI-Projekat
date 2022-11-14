@@ -1,0 +1,62 @@
+﻿<Window x:Class="NetworkService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
+              xmlns:local="clr-namespace:NetworkService"
+        xmlns:viewModel="clr-namespace:NetworkService.ViewModel"
+        xmlns:views="clr-namespace:NetworkService.Views"
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="750" ResizeMode="NoResize">
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel></viewModel:MainWindowViewModel>
+    </Window.DataContext>
+
+
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModel:NetworkViewViewModel}">
+            <views:NetworkViewView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:NetworkDataViewModel}">
+            <views:NetworkDataView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:DataChartViewModel}">
+            <views:DataChartView/>
+        </DataTemplate>
+
+    </Window.Resources>
+
+
+
+
+
+    <Grid>
+        <Grid Height="780" VerticalAlignment="Top" Background="White" Margin="10,0,10,-133">
+            <Label  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 10 0 0" FontSize="22" Foreground="White" FontWeight="Bold"/>
+        </Grid>
+
+        <DockPanel Grid.Column ="0" Background="White" Height="39" VerticalAlignment="Top" Margin="162,10,153,0" >
+            <Menu DockPanel.Dock="Right" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 0 0 0" Background="White">
+                <MenuItem Margin="3 5 0 0" Background="Gray" Header=" Network Data View" Height="30" Width="130" Command="{Binding NavCommand}" CommandParameter="NetworkData" FontSize="12" Foreground="Black" />
+                <MenuItem Margin="3 5 0 0" Background="Gray"  Header="Network View View" Height="30" Width="130" Command="{Binding NavCommand}" CommandParameter="NetworkView" FontSize="12" Foreground="Black" />
+                <MenuItem Margin="3 5 0 0" Background="Gray" Header="Data Chart View" Height="30" Width="130" Command="{Binding NavCommand}" CommandParameter="DataChart" FontSize="12" Foreground="Black"/>
+            </Menu>
+        </DockPanel>
+        <Label Content="'pomoc' za listu komandi" FontSize="14" FontWeight="Black" Foreground="Black"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="291,568,0,0" Width="205"/>
+
+        <TextBox x:Name="Term" FontSize="14" Background="Gray" Foreground="White" HorizontalAlignment="Right" Height="148" TextWrapping="Wrap" Text="{Binding Komanda, Mode=TwoWay}" VerticalAlignment="Top" Width="681" Margin="0,602,33,0">
+            <TextBox.InputBindings>
+                <KeyBinding Modifiers="" 
+                Key="Enter" CommandParameter="{Binding ElementName=Term}"
+                Command="{Binding terminal}"/>
+            </TextBox.InputBindings>
+        </TextBox>
+        <Grid Margin="0,2,0,0">
+            <ContentControl Content="{Binding CurrentViewModel}" Margin="10,59,10,205"/>
+        </Grid>
+    </Grid>
+
+</Window>

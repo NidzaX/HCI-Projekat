@@ -1,0 +1,29 @@
+Parking: 4	|Popunjenost: 70	|Time: 21.01.2022. 14:00:23
+Parking:4	|Popunjenost: 73	|Time: 21.01.2022. 14:00:26
+Parking:4	|Popunjenost: 45	|Time: 21.01.2022. 14:00:33
+Parking:4	|Popunjenost: 54	|Time: 21.01.2022. 14:00:36
+Parking:4	|Popunjenost: 50	|Time: 21.01.2022. 14:00:41
+Parking:4	|Popunjenost: 71	|Time: 21.01.2022. 14:00:47
+Parking:4	|Popunjenost: 94	|Time: 21.01.2022. 14:00:50
+Parking:4	|Popunjenost: 86	|Time: 21.01.2022. 14:00:54
+Parking:4	|Popunjenost: 60	|Time: 21.01.2022. 14:00:59
+Parking:4	|Popunjenost: 50	|Time: 21.01.2022. 14:01:04
+Parking:4	|Popunjenost: 61	|Time: 21.01.2022. 14:01:08
+Parking: 12	|Popunjenost: 85	|Time: 21.01.2022. 14:01:18
+Parking:123	|Popunjenost: 65	|Time: 21.01.2022. 14:01:25
+Parking:4	|Popunjenost: 87	|Time: 21.01.2022. 14:01:28
+Parking:123	|Popunjenost: 68	|Time: 21.01.2022. 14:01:32
+Parking:123	|Popunjenost: 90	|Time: 21.01.2022. 14:01:36
+Parking:123	|Popunjenost: 42	|Time: 21.01.2022. 14:01:43
+Parking:123	|Popunjenost: 78	|Time: 21.01.2022. 14:01:47
+Parking:123	|Popunjenost: 47	|Time: 21.01.2022. 14:01:54
+Parking:4	|Popunjenost: 74	|Time: 21.01.2022. 14:02:00
+Parking:123	|Popunjenost: 68	|Time: 21.01.2022. 14:02:06
+Parking:123	|Popunjenost: 59	|Time: 21.01.2022. 14:02:09
+Parking:12	|Popunjenost: 76	|Time: 21.01.2022. 14:02:13
+Parking:123	|Popunjenost: 50	|Time: 21.01.2022. 14:02:17
+Parking:12	|Popunjenost: 71	|Time: 21.01.2022. 14:02:24
+Parking:12	|Popunjenost: 46	|Time: 21.01.2022. 14:02:30
+Parking:123	|Popunjenost: 99	|Time: 21.01.2022. 14:02:36
+Parking:12	|Popunjenost: 75	|Time: 21.01.2022. 14:02:42
+Parking:123	|Popunjenost: 76	|Time: 21.01.2022. 14:02:47

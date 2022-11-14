@@ -1,0 +1,30 @@
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.csprojAssemblyReference.cache
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\App.g.cs
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MainWindow.baml
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+C:\Users\Milan\Desktop\HCI Projekti\CG2 T6 G2 P1 linux zadnji\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.csprojAssemblyReference.cache
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MainWindow.g.cs
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\App.g.cs
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MainWindow.baml
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+E:\CG2 T6 G2 P1\NetworkService\PSI HCI - PZ2 - MeteringSimulator - T6\MeteringSimulator - T6\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
